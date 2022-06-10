@@ -1,0 +1,12 @@
+{
+    "auto-rename-tag.activationOnLanguage": [
+        "*"
+    ],
+    "emmet.preferences": {
+    
+    },
+
+    "emmet.includeLanguages": {
+        "javascript" : "javascriptreact"
+    }
+}
