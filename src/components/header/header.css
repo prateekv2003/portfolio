@@ -1,6 +1,6 @@
 header{
     height: 100vh;
-    padding-top: 7rem;
+    padding-top: 4rem;
     overflow: hidden;
 }
 
@@ -82,7 +82,23 @@ header{
     header{
         height: 100vh;
     }
-    .header__socials, .scroll__down{
+    .scroll__down{
         display: none;
+    }
+    .header__socials{
+        gap: 2rem;
+        position: static;
+        flex-direction: row;
+        width: fit-content;
+        margin: 1.5rem auto 0;
+        font-size: 21px;
+    }
+
+    .header__socials::after{
+        display: none;
+    }
+
+    .my-name{
+        font-size: 30px;
     }
 }

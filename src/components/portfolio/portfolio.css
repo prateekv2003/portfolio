@@ -14,13 +14,18 @@
 
 .portfolio__item:hover{
     background: transparent;
-    border-color: var(--color-primary-variant);
+    border-color: var(--color-primary);
 }
 
 
 .portfolio__item-image{
-    border-radius: 2rem;
     overflow: hidden;
+    height: 15rem;
+}
+
+.portfolio__item-image > img{
+    border-radius: 2rem;
+    height: inherit; /*from parent ==> 20rem */
 }
 
 .portfolio__item > h3{

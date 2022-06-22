@@ -2,40 +2,39 @@ import React from 'react'
 import "./portfolio.css"
 import IMG1 from '../../assets/portfolio1.jpg'
 import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
+import IMG3 from '../../assets/portfolio3.jpeg'
+import IMG4 from '../../assets/portfolio4.jpeg'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.jpg'
-import { getQueriesForElement } from '@testing-library/react'
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Crypto currency dashboards and financial data visualization',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization' 
+    title: 'Pixo - Website that reassembles an Image gallery made using ReactJS.',
+    github: 'https://github.com/prateekv2003/pixo',
+    demo: 'https://prateekv2003.github.io/pixo' 
   },
   {
     id: 2,
     image: IMG2,
-    title: 'Charts templates & infographics in Figma',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/14820908-Orion-UI-kit-Charts-templates-infographics-in-Figma'
+    title: 'This is a website developed using react which converts any image to webp format.',
+    github: 'https://github.com/prateekv2003/webpImgConverter',
+    demo: 'https://prateekv2003.github.io/webpImgConverter' 
   },
   {
     id: 3,
     image: IMG3,
-    title: 'Figma dashboard UI kit for data design web apps',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/18013196-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps' 
+    title: 'Contact Manager - On this site you can Store, edit and delete contacts and also send emails and make calls to them directly.',
+    github: 'https://github.com/prateekv2003/contactwebapp',
+    demo: 'http://contactwebapp.herokuapp.com/' 
   },
   {
     id: 4,
     image: IMG4,
-    title: 'Maintaining tasks and tracking progress',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/16955822-Maintaining-tasks-and-tracking-progress' 
+    title: 'Pokedex: This site displays the pokemon card fetched from pokemon API dynamically.',
+    github: 'https://github.com/prateekv2003/pokedex',
+    demo: 'https://prateekv2003.github.io/pokedex' 
   },
   {
     id: 5,

@@ -1,12 +1,13 @@
 import React from 'react'
-import "./testimonials.css"
 import AVTR1 from '../../assets/avatar1.jpg'
 import AVTR2 from '../../assets/avatar2.jpg'
 import AVTR3 from '../../assets/avatar3.jpg'
 import AVTR4 from '../../assets/avatar4.jpg'
 
-import { Pagination } from 'swiper';
+import { EffectCoverflow, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
+
+import "./testimonials.css"
 
 // Import Swiper styles
 import 'swiper/css';
@@ -39,22 +40,33 @@ const Testimonials = () => {
       review: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi explicabo veritatis tempore voluptatibus, fuga ex placeat soluta, dolorem iste id, quod quia. Rem mollitia maxime praesentium sequi aliquid facilis tempora!"
     },
   ]
+  
   return (
     <section id="testimonials">
       <h5>Review From Clients</h5>
       <h2>Testimonials</h2>
 
-      <Swiper className="container testimonial__container"
-      // install Swiper modules
-        modules={[Pagination]}
-        spaceBetween={40}
-        slidesPerView={1}
-        pagination={{ clickable: true }}
+      <Swiper 
+      className="container testimonial__container mySwiper"
+        effect={"coverflow"}
+        grabCursor={true}
+        centeredSlides={true}
+        slidesPerView={"auto"}
+        spaceBetween={30}
+        coverflowEffect={{
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        }}
+        pagination={{clickable: true}}
+        modules={[EffectCoverflow, Pagination]}
       >
         {
           data.map(({id, avatar, name, review})=>{
             return(
-              <SwiperSlide key={id} className='testimonial'>
+              <SwiperSlide key={id} className='testimonial' style={{width: "21em"}}>
                 <div className='client__avatar'>
                   <img src={avatar} alt={name} />
                 </div>

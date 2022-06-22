@@ -36,7 +36,7 @@ const about = () => {
                 <small>80+ Completed</small>
               </article>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum sit culpa esse debitis, excepturi necessitatibus illo fugit error, reprehenderit molestiae ipsum doloremque fuga quibusdam libero.</p>
+            <p>I am a Full Stack Web Developer with industry experience building websites and web applications. I specialize in JavaScript and have professional experience working with React and NodeJS. I also have experience working with Python and Django. I'm Software Engineer with the ability to adapt in both self-starting and collaborative environments while staying focused on achieving high-quality results under strict deadlines.</p>
             <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>

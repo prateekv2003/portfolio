@@ -33,7 +33,7 @@
     background: var(--color-bg);
     padding: 0.8rem;
     border-radius: 0.7rem;
-    border: 1px solid transparent;
+    border: 2px solid transparent;
     display: flex;
     transition: var(--transition);
 }
@@ -42,7 +42,24 @@
     color: var(--color-bg);
     background: transparent;
     border-color: var(--color-bg);
+    /* transform: rotateX(360deg);*/
+    transform: rotateZ(360deg);
+    /* transform: rotateY(360deg);  */
+    transition: transform 1000ms ease;
 }
+
+.footer__social-links > a:first-child:hover{
+    transform: rotateY(360deg);
+}
+
+.footer__social-links > a:nth-child(2):hover{
+    transform: rotateZ(360deg);
+}
+
+.footer__social-links > a:last-child:hover{
+    transform: rotateX(360deg);
+}
+
 
 .footer__copyright{
     color: var(--color-bg);
