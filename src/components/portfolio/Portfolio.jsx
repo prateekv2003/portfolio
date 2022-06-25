@@ -4,7 +4,7 @@ import IMG1 from '../../assets/portfolio1.jpg'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpeg'
 import IMG4 from '../../assets/portfolio4.jpeg'
-import IMG5 from '../../assets/portfolio5.png'
+import IMG5 from '../../assets/portfolio5.jpeg'
 import IMG6 from '../../assets/portfolio6.jpg'
 
 const data = [
@@ -25,9 +25,9 @@ const data = [
   {
     id: 3,
     image: IMG3,
-    title: 'Contact Manager - On this site you can Store, edit and delete contacts and also send emails and make calls to them directly.',
-    github: 'https://github.com/prateekv2003/contactwebapp',
-    demo: 'http://contactwebapp.herokuapp.com/' 
+    title: 'PVShoes - E-commerce website for nike shoes.',
+    github: 'https://github.com/prateekv2003/prateekv2003.github.io/tree/main/PVShoes',
+    demo: 'https://prateekv2003.github.io/PVShoes' 
   },
   {
     id: 4,
@@ -39,9 +39,9 @@ const data = [
   {
     id: 5,
     image: IMG5,
-    title: 'Charts templates & infographics in Figma',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/14743882-Orion-UI-kit-Charts-templates-infographics-in-Figma' 
+    title: 'Contact Manager - On this site you can Store, edit and delete contacts and also send emails and make calls to them directly.',
+    github: 'https://github.com/prateekv2003/contactwebapp',
+    demo: 'http://contactwebapp.herokuapp.com/' 
   },
   {
     id: 6,
